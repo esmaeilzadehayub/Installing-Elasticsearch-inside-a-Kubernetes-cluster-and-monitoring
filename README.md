@@ -19,16 +19,16 @@ The above is an overview of a basic Elasticsearch Cluster. As you can see, the c
 # Master-eligible node
 A node that has node.master flag set to true, which makes it eligible to be elected as the master node which controls the cluster. One of the master-eligible nodes is elected as the Master via the master election process. Following are few of the functions performed by the master node:
 
-  Creating or deleting an index
-  Tracking which nodes are part of the cluster
-  Deciding which shards to allocate to which nodes
+ 1. Creating or deleting an index
+ 2. Tracking which nodes are part of the cluster
+ 3. Deciding which shards to allocate to which nodes
 
 # Data node
 A node that has node.data flag set to true. Data nodes hold the shards that contain the documents you have indexed. These nodes perform several operations that are IO, memory, and CPU extensive in nature. Some of the functions performed by data nodes are:
 
-Data related operations like CRUD
-Search
-Aggregations
+1. Data related operations like CRUD
+2. Search
+3. Aggregations
 
 
 # Installation
