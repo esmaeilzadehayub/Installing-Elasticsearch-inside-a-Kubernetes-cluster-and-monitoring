@@ -24,6 +24,6 @@ Note in our case, we’re using the default clusterName and nodeGroup, but when 
 
 | Parameter  | Description | Value |
 | ------------- | ------------- | ----------|
-| clusterName  | This will be used as the Elasticsearch cluster.name | Will use the default value:
-elasticsearch      |
-| nodeGroup  | Content Cell  |           |
+| clusterName  | This will be used as the Elasticsearch cluster.name | Will use the default value:elasticsearch      |
+| nodeGroup  | This is the name that will be used for each group of nodes in the cluster  | Will use the default value:master|
+|roles   |  Elasticsearch roles that will be applied to this nodeGroup |We will use a single node for all roles :master, ingest, data|
