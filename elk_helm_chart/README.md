@@ -27,3 +27,7 @@ Note in our case, we’re using the default clusterName and nodeGroup, but when 
 | clusterName  | This will be used as the Elasticsearch cluster.name | Will use the default value:elasticsearch      |
 | nodeGroup  | This is the name that will be used for each group of nodes in the cluster  | Will use the default value:master|
 |roles   |  Elasticsearch roles that will be applied to this nodeGroup |We will use a single node for all roles :master, ingest, data|
+|replicas |Kubernetes replica count for the StatefulSet	|Will set it to 1 replica:1 |
+|   esConfig  |Allows us to add any config files in /usr/share/elasticsearch/config/ | We will use this parameter to set elastic search configurations
+|    image | The Elasticsearch Docker image| Will use the official image
+|    imageTag |The Elasticsearch Docker image tag|Will use latest tag
