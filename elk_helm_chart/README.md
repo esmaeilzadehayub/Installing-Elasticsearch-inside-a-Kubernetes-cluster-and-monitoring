@@ -24,5 +24,6 @@ Note in our case, we’re using the default clusterName and nodeGroup, but when 
 
 | Parameter  | Description | Value |
 | ------------- | ------------- | ----------|
-| Content Cell  | Content Cell  |           |
-| Content Cell  | Content Cell  |           |
+| clusterName  | This will be used as the Elasticsearch cluster.name | Will use the default value:
+elasticsearch      |
+| nodeGroup  | Content Cell  |           |
