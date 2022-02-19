@@ -32,7 +32,8 @@ A node that has node.data flag set to true. Data nodes hold the shards that cont
 2. Search
 3. Aggregations
 
-
+# Deleting ElasticSearch indices periodically using Curator and Cron Job
+  We use curator-cronjob.yaml for This configuration will clean up the indices older 
 # Installation
 
 We will be working with the list of contents :
