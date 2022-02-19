@@ -11,7 +11,7 @@ Elasticsearch is generally used as the underlying engine for platforms that perf
 # Architecture
 Before we move forward, let us take a look at the basic architecture of Elasticsearch:
 
-![image](https://user-images.githubusercontent.com/28998255/154790975-bd3e6cb2-6845-42ac-b95c-e273047a5141.png)
+
 ![image](https://user-images.githubusercontent.com/28998255/154791466-31cae9cc-7399-4ca4-acf9-f85d3d9d6999.png)
 
 
