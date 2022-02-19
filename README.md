@@ -12,6 +12,8 @@ Elasticsearch is generally used as the underlying engine for platforms that perf
 Before we move forward, let us take a look at the basic architecture of Elasticsearch:
 
 ![image](https://user-images.githubusercontent.com/28998255/154790975-bd3e6cb2-6845-42ac-b95c-e273047a5141.png)
+![image](https://user-images.githubusercontent.com/28998255/154791466-31cae9cc-7399-4ca4-acf9-f85d3d9d6999.png)
+
 
 The above is an overview of a basic Elasticsearch Cluster. As you can see, the cluster is divided into several nodes. A node is a server (physical or virtual) that stores some data and is a part of the elasticsearch cluster. A cluster, on the other hand, is a collection of several nodes that together form the cluster. Every node in turn can hold multiple shards from one or multiple indices. Different kinds of nodes available in Elasticsearch are Master-eligible node, Data node, Ingest node, and Machine learning node(Not availble in the OSS version). In this article, we will only be looking at the master and data nodes for the sake of simplicity.
 
@@ -32,4 +34,10 @@ A node that has node.data flag set to true. Data nodes hold the shards that cont
 
 
 # Installation
+
+We will be working with the list of contents :
+Step1 — How to create a Namespace and Cluster Role?
+Step2 — How to Create the Elasticsearch StatefulSet?
+Step3 — How to create Kibana deployments and services?
+Step4 — How to Create the Fluentd DaemonSet in the cluster?
 
