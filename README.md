@@ -63,3 +63,4 @@ roleRef:
   name: elasticsearch-logging
   apiGroup: ""
  ```
+2. You can use Helm chart to install ELK stack in Kubernetes like below
