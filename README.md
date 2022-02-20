@@ -2,7 +2,18 @@
 There are two solution to install Elasticsearch in Kubernetes.
 
 1. Manifest: in kubernetes-elk-manifests we use manifesy or .yml for installig ELK in kubernetes.
-  - Using RBAC Authorization 
+  - Using RBAC Authorization, 
+  # A ClusterRole can be used to grant the same permissions as a Role. Because ClusterRoles are cluster-scoped, you can also use them to grant access to:
+
+cluster-scoped resources (like nodes)
+non-resource endpoints (like /healthz)
+namespaced resources (like Pods), across all namespaces
+For example: you can use a ClusterRole to allow a particular user to run 
+```sh
+kubectl get pods --all-namespaces
+```
+# ClusterRoleBinding example
+To grant permissions across a whole cluster, you can use a ClusterRoleBinding. The following ClusterRoleBinding allows any user in the group "manager" to read secrets in any namespace.
   ```yml
     # RBAC authn and authz
 apiVersion: v1
