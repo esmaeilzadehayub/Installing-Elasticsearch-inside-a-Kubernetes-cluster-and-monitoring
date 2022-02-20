@@ -1,7 +1,7 @@
 # Installing-Elasticsearch-inside-a-Kubernetes-cluster-and-monitoring
 There are two solution to install Elasticsearch in Kubernetes.
 
-1. Manifest: in kubernetes-elk-manifests we use manifesy or .yml for installig ELK in kubernetes.
+# 1. Manifest: in kubernetes-elk-manifests we use manifesy or .yml for installig ELK in kubernetes.
   - Using RBAC Authorization, 
   # A ClusterRole can be used to grant the same permissions as a Role. Because ClusterRoles are cluster-scoped, you can also use them to grant access to:
 
