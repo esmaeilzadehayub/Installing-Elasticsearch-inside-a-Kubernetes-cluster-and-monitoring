@@ -31,3 +31,7 @@ Note in our case, we’re using the default clusterName and nodeGroup, but when 
 |   esConfig  |Allows us to add any config files in /usr/share/elasticsearch/config/ | We will use this parameter to set elastic search configurations
 |    image | The Elasticsearch Docker image| Will use the official image
 |    imageTag |The Elasticsearch Docker image tag|Will use latest tag
+|resources|Allows us to set the resources for the StatefulSet|You can set it according to your needs
+|persistence|Enables a persistent volume for Elasticsearch data|Will enable it:enabled: true
+|transportPort|The transport port that Kubernetes will use for the service|Will use the default:9300
+|httpPort|The http port that Kubernetes will use for the healthchecks and the service|Will use the default:9200
