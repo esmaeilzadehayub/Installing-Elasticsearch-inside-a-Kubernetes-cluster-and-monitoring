@@ -54,3 +54,6 @@ Step4 — How to Create the Fluentd DaemonSet in the cluster?
   kubectl apply -f metricbeat-ds.yaml
   kubectl apply -f kibana-deployment.yaml
   kubectl apply -f curator-cronjob.yaml
+  ```
+  ![Screenshot from 2022-02-21 01-43-21](https://user-images.githubusercontent.com/28998255/154866743-cd5ec9f6-ca10-4956-a137-c3149d5c5397.png)
+
