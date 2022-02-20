@@ -37,8 +37,13 @@ A node that has node.data flag set to true. Data nodes hold the shards that cont
 # Installation
 
 We will be working with the list of contents :
+
 Step1 — How to create a Namespace and Cluster Role?
+
 Step2 — How to Create the Elasticsearch StatefulSet?
+
 Step3 — How to create Kibana deployments and services?
+
 Step4 — How to Create the Fluentd DaemonSet in the cluster?
+
 
