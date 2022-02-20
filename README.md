@@ -1,7 +1,7 @@
 # Installing-Elasticsearch-inside-a-Kubernetes-cluster-and-monitoring
 There are two solution to install Elasticsearch in Kubernetes.
 
-# 1. Manifest: in kubernetes-elk-manifests folder you can use manifesy or .yml for installig ELK in kubernetes.
+1. Manifest: you can use manifests or .yml for installing ELK in Kubernetes in the kubernetes-elk-manifests folder.
   - Using RBAC Authorization, 
    A ClusterRole can be used to grant the same permissions as a Role. Because ClusterRoles are cluster-scoped, you can also use them to grant access to:
 
@@ -63,4 +63,4 @@ roleRef:
   name: elasticsearch-logging
   apiGroup: ""
  ```
-2. You can use Helm chart to install ELK stack in Kubernetes like below
+2. You can use Helm chart to install ELK stack in elk_helm_chart folder
