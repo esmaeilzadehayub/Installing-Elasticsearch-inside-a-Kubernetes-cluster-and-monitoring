@@ -48,9 +48,9 @@ Step4 — How to Create the Fluentd DaemonSet in the cluster?
 
 # Deploy
   ```bash
-  kubectl create -f elasticsearch-ss.yaml
-  kubectl create -f logstash-deployment.yaml
-  kubectl create -f filebeat-ds.yaml
-  kubectl create -f metricbeat-ds.yaml
-  kubectl create -f kibana-deployment.yaml
-  kubectl create -f curator-cronjob.yaml
+  kubectl apply -f elasticsearch-ss.yaml
+  kubectl apply -f logstash-deployment.yaml
+  kubectl apply -f filebeat-ds.yaml
+  kubectl apply -f metricbeat-ds.yaml
+  kubectl apply -f kibana-deployment.yaml
+  kubectl apply -f curator-cronjob.yaml
